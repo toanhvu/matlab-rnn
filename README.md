@@ -8,3 +8,5 @@
 * Self-Gated RNN ([SGRNN](https://dl.acm.org/citation.cfm?doid=3126686.3126764))
 
 These codes were written a long time ago when I started with deep learning, but they include some codes for computing gradients which are often absent in current Python codes of DL models. So, I think it is worthy to put them here for reference. :+1: 
+
+> The codes are only for classification task in which RNN type is one direction with one or two layers, and the decision is based on the last hidden state. Input is in *cell array* format , each component in a cell corresponds to a timestep.
